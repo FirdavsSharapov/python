@@ -23,6 +23,12 @@
 # lucky_numbers.reverse()
 # print(lucky_numbers)
 
-############ taple
-coordinates = (4, 5)
-print(coordinates[0])
+############ tuple
+# ordinates = (4, 5)
+# int(coordinates[0])
+##### Functions ######
+def say_hi(name, age):
+    print("hello" + name + str(age))
+    print("Bye")
+say_hi("test", 22)
+
