@@ -11,4 +11,18 @@
 # print(plurlar_noun + "are blue")
 # print("I love " + celebraty)
 
-###########
+###########   LIST ##################
+# lucky_numbers=[4,8,9,10,15,19]
+# friends = ["Kevin", "Martin", "Jim", "Oscar"]
+# friends[2] = "Simon"
+# print(friends[1:3])
+# friends.extend(lucky_numbers)
+# friends.insert(1, lucky_numbers[2])
+# print(friends)
+# print(friends.index("Oscar"))
+# lucky_numbers.reverse()
+# print(lucky_numbers)
+
+############ taple
+coordinates = (4, 5)
+print(coordinates[0])
