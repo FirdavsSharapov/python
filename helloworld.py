@@ -27,8 +27,24 @@
 # ordinates = (4, 5)
 # int(coordinates[0])
 ##### Functions ######
-def say_hi(name, age):
-    print("hello" + name + str(age))
-    print("Bye")
-say_hi("test", 22)
+# def say_hi(name: object, age: object) -> object:
+#     print("hello" + name + str(age))
+#     print("Bye")
+#
+#
+# say_hi("test", 22)
+
+################ IF .... ELIF...... ELSE (statements)  ##########
+is_male = True
+is_tall = False
+
+if is_male and is_tall:
+    print("You are male or tall")
+elif is_male and not(is_tall):
+    print("You are male but not tall")
+elif is_tall and not(is_male):
+    print("You are tall but not male")
+else:
+    print("you are either not male and not tall")
+
 
