@@ -47,18 +47,44 @@
 # else:
 #     print("you are either not male and not tall")
 
-def max_num(num1, num2, num3):
-    if num1 >= num2 and num1 >= num3:
-        return num1
-    elif num2 >= num1 and num2 >= num3:
-        return num2
+# def max_num(num1, num2, num3):
+#     if num1 >= num2 and num1 >= num3:
+#         return num1
+#     elif num2 >= num1 and num2 >= num3:
+#         return num2
+#     else:
+#         return num3
+#
+#
+# print(max_num(4, 5, 3))
+
+
+############ WHILE LOOP ###########
+#
+# i = 1
+# while i <= 10:
+#     print(i)
+#     i += 1
+# print("done with loop")
+#
+
+
+########### Guessing game #########
+secret_word = "test"
+guess = ""
+guess_count = 0
+guess_limit = 3
+out_of_guesses = False
+while guess != secret_word and not (out_of_guesses):
+    if guess_count < guess_limit:
+        guess = input("Enter guess: ")
+        guess_count += 1
+        print("Not right, try it again!")
+        print("You have " + str(guess_limit - guess_count) + " more try")
     else:
-        return num3
+        out_of_guesses = True
 
-
-print(max_num(4, 5, 3))
-
-
-
-
-
+if out_of_guesses:
+    print("Out of guesses, You LOSE")
+else:
+    print("You win!")
