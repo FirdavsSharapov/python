@@ -35,16 +35,30 @@
 # say_hi("test", 22)
 
 ################ IF .... ELIF...... ELSE (statements)  ##########
-is_male = True
-is_tall = False
+# is_male = True
+# is_tall = False
+#
+# if is_male and is_tall:
+#     print("You are male or tall")
+# elif is_male and not(is_tall):
+#     print("You are male but not tall")
+# elif is_tall and not(is_male):
+#     print("You are tall but not male")
+# else:
+#     print("you are either not male and not tall")
 
-if is_male and is_tall:
-    print("You are male or tall")
-elif is_male and not(is_tall):
-    print("You are male but not tall")
-elif is_tall and not(is_male):
-    print("You are tall but not male")
-else:
-    print("you are either not male and not tall")
+def max_num(num1, num2, num3):
+    if num1 >= num2 and num1 >= num3:
+        return num1
+    elif num2 >= num1 and num2 >= num3:
+        return num2
+    else:
+        return num3
+
+
+print(max_num(4, 5, 3))
+
+
+
 
 
