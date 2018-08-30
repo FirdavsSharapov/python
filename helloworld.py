@@ -70,21 +70,30 @@
 
 
 ########### Guessing game #########
-secret_word = "test"
-guess = ""
-guess_count = 0
-guess_limit = 3
-out_of_guesses = False
-while guess != secret_word and not (out_of_guesses):
-    if guess_count < guess_limit:
-        guess = input("Enter guess: ")
-        guess_count += 1
-        print("Not right, try it again!")
-        print("You have " + str(guess_limit - guess_count) + " more try")
-    else:
-        out_of_guesses = True
+# secret_word = "test"
+# guess = ""
+# guess_count = 0
+# guess_limit = 3
+# out_of_guesses = False
+# while guess != secret_word and not (out_of_guesses):
+#     if guess_count < guess_limit:
+#         guess = input("Enter guess: ")
+#         guess_count += 1
+#         print("Not right, try it again!")
+#         print("You have " + str(guess_limit - guess_count) + " more try")
+#     else:
+#         out_of_guesses = True
+#
+# if out_of_guesses:
+#     print("Out of guesses, You LOSE")
+# else:
+#     print("You win!")
 
-if out_of_guesses:
-    print("Out of guesses, You LOSE")
-else:
-    print("You win!")
+#### FOR LOOP #############
+friends = ["Jim", "Karen", "Kevin"]
+len(friends)
+for index in range(len(friends)):
+    print(friends[index])
+    friends["Tim"]
+
+print(friends)
