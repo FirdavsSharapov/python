@@ -120,9 +120,17 @@
 #     for col in row:
 #         print(col)
 
+#
+# try:
+#     number = int(input("Enter a number:"))
+#     print(number)
+# except ValueError as err:
+#     print(err)
 
-try:
-    number = int(input("Enter a number:"))
-    print(number)
-except ValueError as err:
-    print(err)
+# employees_file = open('c:\test\employees.txt', "r+")
+# print (employees_file.readline())
+# employees_file.close()
+
+import useful_tools
+
+print(useful_tools.random_dice(9))
