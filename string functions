@@ -1,0 +1,5 @@
+Python 3 String functions
+
+string.isalpha() - returns TRUE if all characters in the string are alphabets.
+string.isdigit() - returns TRUE if given string contains integer.
+string.split() - splits the sentance into the words. Good use with itterator.
